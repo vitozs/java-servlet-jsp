@@ -24,7 +24,7 @@ public class Servlet extends HttpServlet {
         //Pega o parametro "texto", que foi passado no forms do index.html
         String texto = request.getParameter("texto");
 
-        //Seta o nome do atributo que vai ser resgatado na pg .jsp e o valor dele
+        //Seta o nome do atributo que vai ser resgatado na pg .jsp e o valor dele.
         request.setAttribute("texto", texto);
 
 
